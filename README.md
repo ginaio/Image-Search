@@ -25,7 +25,7 @@ $ npm start
 For popup of the pictures
 
 ```sh
-npm install reactjs-popup --save
+$ npm install reactjs-popup --save
 ```
 
 ## Notes

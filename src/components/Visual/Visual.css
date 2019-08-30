@@ -1,0 +1,40 @@
+.Scontent {
+    --mineShaft: #333333;
+    --gallery: #F0F0F0;
+}
+
+.Simgb {
+    display: block;
+    margin: 1%;
+    border: 1px solid #eeeeee;
+    box-shadow: 0 2px 2px #cccccc;
+    border-bottom-right-radius: 15px;
+    width: 80%;
+    padding: 1% 1%;
+    margin: auto;
+    margin-top: 10px
+}
+
+.imgsize {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+      
+.check {
+    background-color: var(--gallery);
+    border: 2px solid var(--mineShaft);
+    border-radius: 16px;
+    color: var(--mineShaft);
+    cursor: pointer;
+    font-size: 14px;
+    padding: 7px 25px;
+    text-transform: uppercase;
+    transition: all 200ms;
+}
+
+.check:hover, .check:focus {
+    background-color: var(--mineShaft);
+    color: var(--gallery);
+    outline: 0;
+}
